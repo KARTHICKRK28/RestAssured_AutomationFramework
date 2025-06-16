@@ -58,7 +58,7 @@ public class UserTests2 {
 		
 	}
 	
-	@Test(priority = 2)
+	@Test(priority = 2,dependsOnMethods = {"test_PostUser"})
 	void test_GetUserbyName() {
 		
 		logger.info("********** Reading the User ***********");
@@ -76,7 +76,7 @@ public class UserTests2 {
 		
 			}
 	
-	@Test(priority = 3)
+	@Test(priority = 3,dependsOnMethods = {"test_GetUserbyName"})
 	void test_UpdateUserbyName() {
 		logger.info("********** Updating the User ***********");
 		
@@ -103,7 +103,7 @@ public class UserTests2 {
 
 		
 	}
-	@Test(priority = 4)
+	@Test(priority = 4,dependsOnMethods = {"test_UpdateUserbyName"})
 	void test_DeleteUserbyName() {
 		logger.info("********** Deleting the User ***********");
 		//using the same data we are posting it here

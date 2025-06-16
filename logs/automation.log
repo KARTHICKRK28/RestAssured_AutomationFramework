@@ -47,3 +47,13 @@
 16:17:50.462 [main] INFO  api.tests.UserTests2 - ********** Reading the Updated User ***********
 16:17:51.846 [main] INFO  api.tests.UserTests2 - ********** Deleting the User ***********
 16:17:53.211 [main] INFO  api.tests.UserTests2 - ********** Deleted the User Successfully ***********
+10:53:02.732 [main] INFO  api.tests.UserTests2 - ********** Creating the User ***********
+10:53:08.476 [main] INFO  api.tests.UserTests2 - ********** User is created ***********
+10:53:08.476 [main] DEBUG api.tests.UserTests2 - *********** Debugging the code ***********
+10:53:08.521 [main] INFO  api.tests.UserTests2 - ********** Reading the User ***********
+10:53:10.830 [main] INFO  api.tests.UserTests2 - ********** User Info is readed successfully ***********
+10:53:10.838 [main] INFO  api.tests.UserTests2 - ********** Updating the User ***********
+10:53:12.286 [main] INFO  api.tests.UserTests2 - ********** User is updated successfully ***********
+10:53:12.286 [main] INFO  api.tests.UserTests2 - ********** Reading the Updated User ***********
+10:53:13.623 [main] INFO  api.tests.UserTests2 - ********** Deleting the User ***********
+10:53:14.967 [main] INFO  api.tests.UserTests2 - ********** Deleted the User Successfully ***********
